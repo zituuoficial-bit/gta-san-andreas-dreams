@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Mod Organizer y HUD/UI | GTA San Andreas Dreams</title>
+  <style>
+    :root{--bg1:#0d0f14;--bg2:#090a0d;--panel:#171a20;--panel2:#1e222a;--text:#f5f6f7;--muted:#bcc1ca;--gold:#f3cf75;--gold2:#ffe8a8;--line:rgba(255,255,255,.09);--green:#59d17f;--blue:#6c97ff}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:radial-gradient(circle at 20% 0%,rgba(243,207,117,.15),transparent 28%),radial-gradient(circle at 100% 20%,rgba(94,143,255,.08),transparent 25%),linear-gradient(180deg,var(--bg1),var(--bg2));padding:26px 16px 38px}
+    .wrap{width:min(980px,100%);margin:0 auto}.brand{text-align:center;padding:18px 10px 10px}.tag{display:inline-block;padding:7px 12px;border-radius:999px;border:1px solid rgba(243,207,117,.22);background:rgba(243,207,117,.07);color:var(--gold2);font-size:12px;font-weight:900;letter-spacing:.11em;text-transform:uppercase;margin-bottom:12px}
+    h1{margin:0;font-size:clamp(34px,6vw,60px);line-height:1;color:var(--gold2);letter-spacing:-.04em}.sub{max-width:760px;margin:13px auto 0;color:var(--muted);line-height:1.65;font-size:15px}.icons{margin-top:14px;font-size:18px;letter-spacing:10px}
+    .card{margin-top:20px;background:linear-gradient(180deg,var(--panel),#12151a);border:1px solid var(--line);border-radius:24px;overflow:hidden;box-shadow:0 24px 70px rgba(0,0,0,.38)}.hero{padding:30px;border-bottom:1px solid var(--line)}.pill{display:inline-block;padding:8px 12px;border-radius:999px;color:var(--gold2);border:1px solid rgba(243,207,117,.22);background:rgba(243,207,117,.06);font-size:12px;font-weight:900;letter-spacing:.07em;text-transform:uppercase;margin-bottom:14px}.hero h2{margin:0;font-size:clamp(28px,4.5vw,42px);line-height:1.14}.hero p{margin:14px 0 0;color:var(--muted);line-height:1.7;max-width:800px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:24px}.panel{background:var(--panel2);border:1px solid var(--line);border-radius:18px;padding:20px}.panel h3{margin:0 0 8px;font-size:21px}.panel p{color:var(--muted);font-size:14px;line-height:1.6;margin:0}.servers{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}.server{padding:17px;border-radius:15px;background:rgba(255,255,255,.03);border:1px solid var(--line)}.server strong{display:block;font-size:17px;margin-bottom:5px}.small{color:var(--muted);font-size:13px;line-height:1.5}.filename{color:var(--gold2);font-weight:800;margin-top:7px;word-break:break-word}.btn{display:flex;align-items:center;justify-content:center;width:100%;min-height:54px;border-radius:14px;text-decoration:none;font-weight:900;padding:14px 18px;margin-top:13px;transition:transform .15s ease,filter .15s ease}.btn:hover{transform:translateY(-1px);filter:brightness(1.04)}.mediafire{color:#fff;background:linear-gradient(180deg,#5f9dff,#3974d7)}.mega{color:#151515;background:linear-gradient(180deg,#f6d983,#d9aa45)}
+    .hud{grid-column:1 / -1}.hud-inner{display:grid;grid-template-columns:1.3fr .7fr;gap:18px;align-items:center}.note{grid-column:1 / -1;padding:14px 16px;border-radius:13px;border:1px solid rgba(89,209,127,.2);background:rgba(89,209,127,.07);color:#dcefe2;font-size:13px;line-height:1.6}.foot{text-align:center;color:#7e8490;font-size:12px;margin-top:16px;line-height:1.5}
+    @media(max-width:760px){.grid,.servers,.hud-inner{grid-template-columns:1fr}.hud{grid-column:auto}.hero{padding:22px}.grid{padding:16px}.panel{padding:16px}}
+  </style>
+</head>
+<body>
+<main class="wrap">
+  <header class="brand">
+    <div class="tag">Descargas oficiales</div>
+    <h1>GTA San Andreas Dreams</h1>
+    <p class="sub">Descarga Mod Organizer y el pack de HUD e interfaz utilizados en el vídeo.</p>
+    <div class="icons">🎮 🧰 ✨ 📦</div>
+  </header>
+
+  <section class="card">
+    <div class="hero">
+      <span class="pill">Mod Organizer + interfaz</span>
+      <h2>Interfaz mejorada y Mod Organizer configurado</h2>
+      <p>Los tres enlaces del vídeo están organizados por archivo. Mod Organizer tiene dos servidores alternativos; el pack HUD y UI es una descarga independiente.</p>
+    </div>
+
+    <div class="grid">
+      <section class="panel">
+        <h3>🧰 Mod Organizer</h3>
+        <p>Herramienta principal para mantener los mods ordenados por perfiles.</p>
+        <div class="servers">
+          <div class="server">
+            <strong>MediaFire</strong>
+            <div class="small">Servidor principal</div>
+            <div class="filename">ModOrganizer.rar</div>
+            <a class="btn mediafire" href="https://www.mediafire.com/file/t6xey017ku2itxu/ModOrganizer.rar/file" target="_blank" rel="noopener noreferrer">Descargar desde MediaFire</a>
+          </div>
+          <div class="server">
+            <strong>MEGA</strong>
+            <div class="small">Servidor alternativo</div>
+            <div class="filename">Mod Organizer.rar</div>
+            <a class="btn mega" href="https://mega.nz/file/J2FxnJrS#148hE1ZiRyc2qBwFWlvb90jHFwARGS3PyQnX9BzLQk8" target="_blank" rel="noopener noreferrer">Descargar desde MEGA</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel hud">
+        <div class="hud-inner">
+          <div>
+            <h3>🖥️ Pack HUD y UI</h3>
+            <p>Archivo independiente con el HUD y los elementos de interfaz mostrados en el vídeo.</p>
+            <div class="filename">HUD y UI.rar</div>
+          </div>
+          <a class="btn mega" href="https://mega.nz/file/oi8X0apI#xlSq9I5bp3gwdkZwmTgXsko2Oc2C2KjZoV2xL_MOHtM" target="_blank" rel="noopener noreferrer">Descargar HUD y UI desde MEGA</a>
+        </div>
+      </section>
+
+      <div class="note">💡 Los dos primeros botones descargan Mod Organizer desde servidores diferentes. El tercer botón descarga el pack HUD y UI.</div>
+    </div>
+  </section>
+
+  <div class="foot">GTA San Andreas Dreams · Página oficial de descargas del proyecto</div>
+</main>
+</body>
+</html>
