@@ -13,8 +13,8 @@
     h1{margin:0;font-size:clamp(34px,6vw,60px);line-height:1;color:var(--gold2);letter-spacing:-.04em}.sub{max-width:760px;margin:13px auto 0;color:var(--muted);line-height:1.65;font-size:15px}.icons{margin-top:14px;font-size:18px;letter-spacing:10px}
     .card{margin-top:20px;background:linear-gradient(180deg,var(--panel),#12151a);border:1px solid var(--line);border-radius:24px;overflow:hidden;box-shadow:0 24px 70px rgba(0,0,0,.38)}.hero{padding:30px;border-bottom:1px solid var(--line)}.pill{display:inline-block;padding:8px 12px;border-radius:999px;color:var(--gold2);border:1px solid rgba(243,207,117,.22);background:rgba(243,207,117,.06);font-size:12px;font-weight:900;letter-spacing:.07em;text-transform:uppercase;margin-bottom:14px}.hero h2{margin:0;font-size:clamp(28px,4.5vw,42px);line-height:1.14}.hero p{margin:14px 0 0;color:var(--muted);line-height:1.7;max-width:800px}
     .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:24px}.panel{background:var(--panel2);border:1px solid var(--line);border-radius:18px;padding:20px}.panel h3{margin:0 0 8px;font-size:21px}.panel p{color:var(--muted);font-size:14px;line-height:1.6;margin:0}.servers{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}.server{padding:17px;border-radius:15px;background:rgba(255,255,255,.03);border:1px solid var(--line)}.server strong{display:block;font-size:17px;margin-bottom:5px}.small{color:var(--muted);font-size:13px;line-height:1.5}.filename{color:var(--gold2);font-weight:800;margin-top:7px;word-break:break-word}.btn{display:flex;align-items:center;justify-content:center;width:100%;min-height:54px;border-radius:14px;text-decoration:none;font-weight:900;padding:14px 18px;margin-top:13px;transition:transform .15s ease,filter .15s ease}.btn:hover{transform:translateY(-1px);filter:brightness(1.04)}.mediafire{color:#fff;background:linear-gradient(180deg,#5f9dff,#3974d7)}.mega{color:#151515;background:linear-gradient(180deg,#f6d983,#d9aa45)}
-    .hud{grid-column:1 / -1}.hud-inner{display:grid;grid-template-columns:1.3fr .7fr;gap:18px;align-items:center}.note{grid-column:1 / -1;padding:14px 16px;border-radius:13px;border:1px solid rgba(89,209,127,.2);background:rgba(89,209,127,.07);color:#dcefe2;font-size:13px;line-height:1.6}.foot{text-align:center;color:#7e8490;font-size:12px;margin-top:16px;line-height:1.5}
-    @media(max-width:760px){.grid,.servers,.hud-inner{grid-template-columns:1fr}.hud{grid-column:auto}.hero{padding:22px}.grid{padding:16px}.panel{padding:16px}}
+    .hud,.support{grid-column:1 / -1}.hud-inner,.support-inner{display:grid;grid-template-columns:1.3fr .7fr;gap:18px;align-items:center}.tipbtn{color:#0e120f;background:linear-gradient(180deg,#8bf0ad,#4fc777)}.note{grid-column:1 / -1;padding:14px 16px;border-radius:13px;border:1px solid rgba(89,209,127,.2);background:rgba(89,209,127,.07);color:#dcefe2;font-size:13px;line-height:1.6}.foot{text-align:center;color:#7e8490;font-size:12px;margin-top:16px;line-height:1.5}
+    @media(max-width:760px){.grid,.servers,.hud-inner,.support-inner{grid-template-columns:1fr}.hud,.support{grid-column:auto}.hero{padding:22px}.grid{padding:16px}.panel{padding:16px}}
   </style>
 </head>
 <body>
@@ -65,6 +65,16 @@
       </section>
 
       <div class="note">💡 Los dos primeros botones descargan Mod Organizer desde servidores diferentes. El tercer botón descarga el pack HUD y UI.</div>
+
+      <section class="panel support">
+        <div class="support-inner">
+          <div>
+            <h3>💛 Apoya el proyecto</h3>
+            <p>Si este contenido te ayuda y quieres apoyar el crecimiento de GTA San Andreas Dreams, puedes dejar un tip.</p>
+          </div>
+          <a class="btn tipbtn" href="https://streamelements.com/zituuoficial/tip" target="_blank" rel="noopener noreferrer">Apoyar el proyecto con un tip</a>
+        </div>
+      </section>
     </div>
   </section>
 
